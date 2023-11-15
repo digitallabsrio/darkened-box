@@ -1,0 +1,1 @@
+helm upgrade dashboard kubernetes-dashboard/kubernetes-dashboard -n monitoring --install --create-namespace --values dashboard.yaml

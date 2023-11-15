@@ -1,0 +1,1 @@
+curl --max-time 3 {{ include "app.fullName" . }}:{{ .Values.app.service.port }}{{ .Values.test.connection.endpoint }}

@@ -1,0 +1,1 @@
+helm upgrade kanban-backend ./app -n kanban --install --values kanban-backend.yaml

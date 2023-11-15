@@ -1,0 +1,10 @@
+environments:
+  default:
+    kubeContext: kind-kind
+    values:
+      - dev.yaml
+
+  production:
+    kubeContext: kind-production
+    values:
+      - production.yaml

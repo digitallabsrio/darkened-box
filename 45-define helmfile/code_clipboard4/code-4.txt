@@ -1,0 +1,14 @@
+repositories:
+  ... other Repository
+
+  - name: bitnami
+    url: https://charts.bitnami.com/bitnami
+
+releases:
+  ... other Releases
+
+  - name: postgres
+    namespace: kanban
+    chart: bitnami/postgresql
+    values:
+      - postgres.yaml

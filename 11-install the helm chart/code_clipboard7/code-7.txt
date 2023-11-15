@@ -1,0 +1,1 @@
+kubectl describe deployment dashboard-kubernetes-dashboard -n monitoring

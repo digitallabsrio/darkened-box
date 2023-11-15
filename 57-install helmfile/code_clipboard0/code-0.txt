@@ -1,0 +1,1 @@
+wget https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_linux_amd64 -O helmfile_linux_amd64

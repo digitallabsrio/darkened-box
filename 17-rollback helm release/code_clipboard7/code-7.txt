@@ -1,0 +1,1 @@
+helm rollback dashboard 1 -n monitoring --wait --timeout 60s

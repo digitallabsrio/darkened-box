@@ -1,0 +1,1 @@
+kubectl describe deployment kanban-backend --namespace kanban

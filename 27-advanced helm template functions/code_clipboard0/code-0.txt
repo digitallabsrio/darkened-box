@@ -1,0 +1,5 @@
+env:
+  {{- range .Values.app.container.env}}
+   - name: {{ .key}}
+     value: {{ .value}}
+  {{- end}}

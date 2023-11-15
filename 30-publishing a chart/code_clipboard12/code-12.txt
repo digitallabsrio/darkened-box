@@ -1,0 +1,1 @@
+helm upgrade kanban-backend-2 app-repo/app -n kanban-2 --create-namespace --install --wait --values kanban-backend.yaml

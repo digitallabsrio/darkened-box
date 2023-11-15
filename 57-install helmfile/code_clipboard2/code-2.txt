@@ -1,0 +1,1 @@
+mv helmfile_linux_amd64 ~/.local/bin/helmfile

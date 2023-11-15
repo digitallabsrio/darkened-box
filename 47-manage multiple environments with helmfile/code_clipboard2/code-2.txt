@@ -1,0 +1,7 @@
+releases:
+  - name: postgres
+    chart: bitnami/postgresql
+    namespace: kanban
+    installed: {{ eq .Environment.Name "default" | toYaml }}
+    values:
+      - postgres.yaml

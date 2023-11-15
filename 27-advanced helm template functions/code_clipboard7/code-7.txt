@@ -1,0 +1,5 @@
+env:
+  {{- range $key, $val := .Values.app.container.env}}
+  - name: {{ $key }}
+    value: {{ $val | quote }}
+  {{- end}}

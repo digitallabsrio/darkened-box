@@ -1,0 +1,1 @@
+> helm upgrade kanban-frontend ./app -n kanban --create-namespace --install --values kanban-frontend.yaml

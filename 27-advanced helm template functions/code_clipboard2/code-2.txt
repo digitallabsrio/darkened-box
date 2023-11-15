@@ -1,0 +1,9 @@
+{{- if .Values.app.container.env }}
+env:
+  {{- range .Values.app.container.env}}
+  - name: {{ .key}}
+    value: {{ .value}}
+  {{- end}}
+{{- else }}
+env: []
+{{- end }}

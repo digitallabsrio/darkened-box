@@ -1,0 +1,7 @@
+{{ if CONDITION }}
+  # Do something
+{{ else if OTHER CONDITION }}
+  # Do something else
+{{ else }}
+  # Default case
+{{ end }}

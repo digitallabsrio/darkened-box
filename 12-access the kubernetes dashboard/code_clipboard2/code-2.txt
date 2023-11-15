@@ -1,0 +1,1 @@
+kubectl -n monitoring create clusterrolebinding dashboard-kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=monitoring:dashboard-kubernetes-dashboard

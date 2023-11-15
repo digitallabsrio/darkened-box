@@ -1,0 +1,1 @@
+helm install nginx-app ./nginx-chart --values ./values.yaml

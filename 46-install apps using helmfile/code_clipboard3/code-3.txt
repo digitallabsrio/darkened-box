@@ -1,0 +1,14 @@
+releases:
+  - name: kanban-backend
+    namespace: kanban
+    chart: helm-app/app
+    values:
+      - kanban-backend.yaml
+    needs:
+      - postgres
+
+  - name: postgres
+    namespace: kanban
+    chart: bitnami/postgresql
+    values:
+      - postgres.yaml

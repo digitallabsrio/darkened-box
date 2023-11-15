@@ -1,0 +1,8 @@
+releases:
+  - name: kanban-frontend
+    chart: ./app
+    namespace: kanban
+    installed: false
+    values:
+      - kanban-frontend.yaml
+      - values.yaml.gotmpl

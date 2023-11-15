@@ -1,0 +1,7 @@
+app:
+  name: default-app-name
+  group: default-app-group
+  replicaCount: 1
+  container:
+    image: add-image-here
+    port: 8080

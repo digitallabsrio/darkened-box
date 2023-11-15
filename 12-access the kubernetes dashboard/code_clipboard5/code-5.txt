@@ -1,0 +1,1 @@
+kubectl -n monitoring port-forward service/dashboard-kubernetes-dashboard 443:443

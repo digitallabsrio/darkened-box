@@ -1,0 +1,1 @@
+chmod +x helmfile_linux_amd64

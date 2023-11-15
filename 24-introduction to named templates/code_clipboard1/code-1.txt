@@ -1,0 +1,9 @@
+{{/*
+Generic labels for each Kubernetes resource
+*/}}
+{{- define "app.labels" -}}
+app.kubernetes.io/name: {{ .Values.app.name }}
+app.kubernetes.io/version: {{ .Release.Name }}-{{ .Release.Revision }}
+app: {{ .Values.app.name }}
+group: {{ .Values.app.group }}
+{{- end }}

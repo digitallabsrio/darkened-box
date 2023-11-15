@@ -1,0 +1,1 @@
+helm upgrade kanban-backend-3 ./app -n kanban-3 --create-namespace --install --wait --values kanban-backend.yaml

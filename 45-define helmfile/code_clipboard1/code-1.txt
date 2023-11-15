@@ -1,0 +1,3 @@
+repositories:
+  - name: helm-app
+    url: git+https://github.com/wkrzywiec/helm-app.git@app?ref=main

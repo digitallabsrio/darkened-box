@@ -1,0 +1,1 @@
+helm diff revision kanban-frontend 1 --namespace kanban

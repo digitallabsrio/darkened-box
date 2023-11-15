@@ -1,0 +1,1 @@
+helm upgrade kanban ./kanban -n kanban --create-namespace --install --wait --values gke.yaml

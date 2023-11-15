@@ -1,0 +1,8 @@
+releases:
+  ... previous Release
+
+  - name: kanban-backend
+    namespace: kanban
+    chart: helm-app/app
+    values:
+      - kanban-backend.yaml

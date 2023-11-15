@@ -1,0 +1,1 @@
+kubectl logs adminer-796d9b4fcf-ffb25

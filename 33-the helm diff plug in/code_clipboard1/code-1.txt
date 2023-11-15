@@ -1,0 +1,1 @@
+helm diff upgrade kanban-frontend ./app --namespace kanban

@@ -1,0 +1,3 @@
+repositories:
+  - name: helm-app
+    url: https://wkrzywiec.github.io/helm-app/

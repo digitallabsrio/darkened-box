@@ -1,0 +1,1 @@
+kubectl describe service kanban-frontend --namespace kanban

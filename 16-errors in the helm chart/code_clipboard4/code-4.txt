@@ -1,0 +1,1 @@
+kubectl describe pod dashboard-kubernetes-dashboard-678bd69b95-cpdqf -n monitoring

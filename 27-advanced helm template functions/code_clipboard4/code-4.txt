@@ -1,0 +1,7 @@
+containers:
+  - name: {{ include "app.fullName" . }}
+    {{- with .Values.app.container }}
+    image: {{ .image }}  
+    ports:
+      - containerPort: {{ .port }}
+    {{- end }}

@@ -1,0 +1,1 @@
+docker logs kind-control-plane

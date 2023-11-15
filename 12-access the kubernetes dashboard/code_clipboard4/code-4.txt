@@ -1,0 +1,1 @@
+kubectl describe secret dashboard-kubernetes-dashboard-token-btsp4 -n monitoring

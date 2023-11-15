@@ -1,0 +1,6 @@
+releases:
+  - name: kanban-frontend
+    namespace: kanban
+    chart: ./app
+    values:
+      - kanban-frontend.yaml

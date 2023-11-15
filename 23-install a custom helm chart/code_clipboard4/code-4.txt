@@ -1,0 +1,1 @@
+helm upgrade postgres bitnami/postgresql -n kanban --create-namespace --install --values postgres.yaml --version 12.1.6
